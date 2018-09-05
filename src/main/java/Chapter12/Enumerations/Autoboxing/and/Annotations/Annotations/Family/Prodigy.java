@@ -1,7 +1,9 @@
-package main.java.Chapter12.Enumerations.Autoboxing.and.Annotations.Annotations;
+package main.java.Chapter12.Enumerations.Autoboxing.and.Annotations.Annotations.Family;
 
+import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /*
     Annotations have three different retention policies
@@ -10,6 +12,7 @@ import java.lang.annotation.RetentionPolicy;
         3. RUNTIME - stored in the .class file during compilation and is available through the JVM during runtime
     Use @Retention annotation to specify the annotations retention policy
  */
+@Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Prodigy {
     // All annotations consist solely of method declaration

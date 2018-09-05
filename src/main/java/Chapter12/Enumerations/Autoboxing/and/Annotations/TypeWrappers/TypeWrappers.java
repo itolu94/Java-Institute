@@ -1,4 +1,4 @@
-package main.java.Chapter12.Enumerations.Autoboxing.and.Annotations;
+package main.java.Chapter12.Enumerations.Autoboxing.and.Annotations.TypeWrappers;
 
 //demonstration wrappers for java primitive types
 public class TypeWrappers {

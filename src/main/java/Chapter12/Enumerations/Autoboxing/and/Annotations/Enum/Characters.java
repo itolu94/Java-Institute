@@ -1,9 +1,9 @@
-package main.java.Chapter12.Enumerations.Autoboxing.and.Annotations;
+package main.java.Chapter12.Enumerations.Autoboxing.and.Annotations.Enum;
 
 //use of keyword enum creates enumeration.
 
 public enum Characters {
-    //enumeration constants.  implicitly decleared as a public, static final member.
+    //enumeration constants.  implicitly declared as a public, static final member.
     // are constants to the Character object.
     Naruto(5000, true),  Sakura(2000), Tobi(3985), Madara(7059), Lee(3769);
     private int powerLevel;

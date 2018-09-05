@@ -1,4 +1,4 @@
-package main.java.Chapter11.Multithreaded.Programming;
+package main.java.Chapter11.Multithreaded.Programming.Children;
 
 // any object that implements Runnable can be a thread
 public class RunnableThread implements Runnable{
@@ -17,6 +17,8 @@ public class RunnableThread implements Runnable{
                 System.out.println("Loop in " + t.getName() +" has run " + i + " times");
                 t.sleep(500);
             }
+            Announcer a = new Announcer();
+            a.finished(t.getName());
         } catch (InterruptedException e){
             System.out.println("RunnableThread was interrupted");
         }

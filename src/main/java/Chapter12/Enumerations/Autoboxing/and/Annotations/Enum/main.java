@@ -1,4 +1,6 @@
-package main.java.Chapter12.Enumerations.Autoboxing.and.Annotations;
+package main.java.Chapter12.Enumerations.Autoboxing.and.Annotations.Enum;
+
+import main.java.Chapter12.Enumerations.Autoboxing.and.Annotations.Enum.Characters;
 
 public class main {
     public static void main(String args[]){

@@ -1,4 +1,4 @@
-package main.java.Chapter10.Exeption.Handling;
+package main.java.Chapter10.Exeption.Handling.ExceptionTypes;
 
 public class UnchekedExceptions {
     /*
